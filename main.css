@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@300&family=Quicksand&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+
+
+
+.welcome {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: url("./img/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+body{
+    margin : 0px;
+    background: #fefae0;
+}
+
+#title {
+    font-size: 30px;
+    background-color: #e0fbfc;
+    color: #023047;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#title:hover {
+    background-color: #023047;
+    color: #e0fbfc;
+    transition: .5s;
+    
+}
+
+.about {
+    margin-top : -21.44px;
+    text-align: center;
+    
+}
+
+.about-title {
+    color: #023047;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 20px;
+}
+
+#about-details{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: 'Gantari', sans-serif;
+}
+
+/*places to visit --------------------------------*/
+
+.place-el {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.place-img1 {
+    background-image: url("./img/isha.webp");
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+
+.place-img2 {
+    background-image: url("./img/valparai.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.place-img3 {
+    background-image: url("./img/pollachi.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.place-img4 {
+    background-image: url("./img/topslip.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.place-img5 {
+    background-image: url("./img/siruvani.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.place-img6 {
+    background-size: cover;
+    background-image: url("./img/ooty.jpg");
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.hint{
+    margin-top: -10px;
+    text-align: center;
+    font-family: 'Gantari', sans-serif;
+}
+.place-title {
+    text-align: center;
+    color: #023047;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 20px;
+    margin-bottom: 1px;
+    margin-top: 50px;
+}
+
+.place-name {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Gantari', sans-serif;
+    padding-top: 1px;
+    
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+
+
+#seperate {
+    text-align: center;
+}
